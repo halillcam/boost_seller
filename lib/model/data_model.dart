@@ -5,16 +5,17 @@ class DataModel {
   String itemImage;
   double? itemPoint;
   int itemSeller;
-  String itemSite;
-  List<String> suppliers = [];
+  List<String> itemSourceSite;
+  List<String> suppliers;
 
   DataModel({
     required this.itemName,
     required this.itemCategory,
     required this.itemPrice,
     required this.itemImage,
-    required this.itemSite,
-    this.itemPoint = 0,
+    required this.itemSourceSite,
+    this.itemPoint,
     this.itemSeller = 0,
+    required this.suppliers,
   });
 }

@@ -1,3 +1,4 @@
+import 'package:e_commerce/views/items_view.dart';
 import 'package:e_commerce/views/login_page.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       theme: ThemeData.dark(),
-      home: LoginPage(),
+      home: ItemsView(),
     );
   }
 }
