@@ -1,33 +1,50 @@
-import 'package:e_commerce/model/data_model.dart';
 import 'package:flutter/material.dart';
+import 'package:e_commerce/model/data_model.dart';
+import 'package:e_commerce/model/items_constants.dart';
 
-class ItemsDetail extends StatelessWidget {
-  const ItemsDetail({super.key});
+class ItemDetailPage extends StatelessWidget {
+  final DataModel item;
+
+  const ItemDetailPage({Key? key, required this.item}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    final supplierPrices = item.suppliersPrices;
+
     return Scaffold(
-      appBar: AppBar(title: Text("data"), centerTitle: true),
+      appBar: AppBar(title: Text(item.itemName)),
       body: Center(
         child: Column(
           children: [
-            Container(width: 400, height: 400, child: Image.asset("name")),
-            SizedBox(height: 50),
+            Image.asset(item.itemImage, height: 200, fit: BoxFit.cover),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Text(
+                item.itemName,
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              ),
+            ),
+            Divider(),
+            Expanded(
+              child: ListView.builder(
+                itemCount: supplierPrices.length,
+                itemBuilder: (context, index) {
+                  final supplier = supplierPrices.keys.elementAt(index);
+                  final price = supplierPrices[supplier];
+
+                  return Card(
+                    child: ListTile(
+                      title: Text(supplier.name),
+                      trailing: Text("$price ₺", style: TextStyle(fontWeight: FontWeight.bold)),
+                      leading: Icon(Icons.storefront),
+                    ),
+                  );
+                },
+              ),
+            ),
           ],
         ),
       ),
-    );
-  }
-}
-
-class SuppliersView extends StatelessWidget {
-  SuppliersView({super.key, required this.datas});
-  List<DataModel> datas;
-
-  @override
-  Widget build(BuildContext context) {
-    return Card(
-      child: ListTile(leading: Icon(Icons.abc), title: Text("data")),
     );
   }
 }

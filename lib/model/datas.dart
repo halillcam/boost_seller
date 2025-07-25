@@ -20,6 +20,12 @@ class Datas {
           ItemSuppliers.babey.name,
           ItemSuppliers.dropper.name,
         ],
+        suppliersPrices: {
+          ItemSuppliers.aliFather: 14500,
+          ItemSuppliers.Selena: 14600,
+          ItemSuppliers.babey: 13250,
+          ItemSuppliers.dropper: 14800,
+        },
       ),
     );
 
@@ -39,6 +45,12 @@ class Datas {
           ItemSuppliers.babey.name,
           ItemSuppliers.dropper.name,
         ],
+        suppliersPrices: {
+          ItemSuppliers.aliFather: 14500,
+          ItemSuppliers.Selena: 14600,
+          ItemSuppliers.babey: 13250,
+          ItemSuppliers.dropper: 14800,
+        },
       ),
     );
     items.add(
@@ -58,6 +70,12 @@ class Datas {
           ItemSuppliers.babey.name,
           ItemSuppliers.dropper.name,
         ],
+        suppliersPrices: {
+          ItemSuppliers.aliFather: 14500,
+          ItemSuppliers.Selena: 14600,
+          ItemSuppliers.babey: 13250,
+          ItemSuppliers.dropper: 14800,
+        },
       ),
     );
     items.add(
@@ -76,6 +94,12 @@ class Datas {
           ItemSuppliers.babey.name,
           ItemSuppliers.dropper.name,
         ],
+        suppliersPrices: {
+          ItemSuppliers.aliFather: 14500,
+          ItemSuppliers.Selena: 14600,
+          ItemSuppliers.babey: 13250,
+          ItemSuppliers.dropper: 14800,
+        },
       ),
     );
     items.add(
@@ -95,6 +119,12 @@ class Datas {
           ItemSuppliers.babey.name,
           ItemSuppliers.dropper.name,
         ],
+        suppliersPrices: {
+          ItemSuppliers.aliFather: 14500,
+          ItemSuppliers.Selena: 14600,
+          ItemSuppliers.babey: 13250,
+          ItemSuppliers.dropper: 14800,
+        },
       ),
     );
     items.add(
@@ -113,6 +143,12 @@ class Datas {
           ItemSuppliers.babey.name,
           ItemSuppliers.dropper.name,
         ],
+        suppliersPrices: {
+          ItemSuppliers.aliFather: 14500,
+          ItemSuppliers.Selena: 14600,
+          ItemSuppliers.babey: 13250,
+          ItemSuppliers.dropper: 14800,
+        },
       ),
     );
     items.add(
@@ -131,6 +167,12 @@ class Datas {
           ItemSuppliers.babey.name,
           ItemSuppliers.dropper.name,
         ],
+        suppliersPrices: {
+          ItemSuppliers.aliFather: 14500,
+          ItemSuppliers.Selena: 14600,
+          ItemSuppliers.babey: 13250,
+          ItemSuppliers.dropper: 14800,
+        },
       ),
     );
     return items;

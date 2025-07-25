@@ -1,4 +1,5 @@
 import 'package:e_commerce/model/datas.dart';
+import 'package:e_commerce/views/items_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:e_commerce/model/data_model.dart';
 import 'package:e_commerce/model/items_constants.dart';
@@ -68,7 +69,9 @@ class CustomItemView extends StatelessWidget {
             itemBuilder: (context, index) {
               final item = items[index];
               return GestureDetector(
-                onTap: () => print("Tiklandi"),
+                onTap: () => Navigator.of(
+                  context,
+                ).push(MaterialPageRoute(builder: (context) => ItemDetailPage(item: item))),
                 child: Card(
                   elevation: 4,
                   child: Container(

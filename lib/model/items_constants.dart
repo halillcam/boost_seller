@@ -35,4 +35,4 @@ enum ItemCategories { Electronics, Fashion, Toys, Books }
 
 enum itemSourceSite { Babazon, xBay, Tabu, Trendway }
 
-enum ItemSuppliers { aliFather, babey, dropper }
+enum ItemSuppliers { aliFather, babey, dropper, Selena }
