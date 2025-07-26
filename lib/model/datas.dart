@@ -46,10 +46,10 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 14500,
-          ItemSuppliers.Selena: 14600,
-          ItemSuppliers.babey: 13250,
-          ItemSuppliers.dropper: 14800,
+          ItemSuppliers.aliFather: 250,
+          ItemSuppliers.Selena: 175,
+          ItemSuppliers.babey: 165,
+          ItemSuppliers.dropper: 150,
         },
       ),
     );
@@ -71,10 +71,10 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 14500,
-          ItemSuppliers.Selena: 14600,
-          ItemSuppliers.babey: 13250,
-          ItemSuppliers.dropper: 14800,
+          ItemSuppliers.aliFather: 10250,
+          ItemSuppliers.Selena: 10150,
+          ItemSuppliers.babey: 11000,
+          ItemSuppliers.dropper: 10175,
         },
       ),
     );
@@ -95,10 +95,10 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 14500,
-          ItemSuppliers.Selena: 14600,
-          ItemSuppliers.babey: 13250,
-          ItemSuppliers.dropper: 14800,
+          ItemSuppliers.aliFather: 75,
+          ItemSuppliers.Selena: 150,
+          ItemSuppliers.babey: 250,
+          ItemSuppliers.dropper: 270,
         },
       ),
     );
@@ -120,10 +120,10 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 14500,
-          ItemSuppliers.Selena: 14600,
-          ItemSuppliers.babey: 13250,
-          ItemSuppliers.dropper: 14800,
+          ItemSuppliers.aliFather: 4250,
+          ItemSuppliers.Selena: 4275,
+          ItemSuppliers.babey: 4800,
+          ItemSuppliers.dropper: 4650,
         },
       ),
     );
@@ -168,10 +168,10 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 14500,
-          ItemSuppliers.Selena: 14600,
-          ItemSuppliers.babey: 13250,
-          ItemSuppliers.dropper: 14800,
+          ItemSuppliers.aliFather: 3500,
+          ItemSuppliers.Selena: 3250,
+          ItemSuppliers.babey: 3100,
+          ItemSuppliers.dropper: 3150,
         },
       ),
     );
