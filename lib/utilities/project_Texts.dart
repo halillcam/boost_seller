@@ -1,4 +1,4 @@
-import 'package:e_commerce/utilities/project_textstyles.dart';
+import 'package:boost_seller/utilities/project_textstyles.dart';
 import 'package:flutter/widgets.dart';
 
 class ProjectTexts {

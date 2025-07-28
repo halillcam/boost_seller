@@ -1,4 +1,4 @@
-import 'package:e_commerce/model/items_constants.dart';
+import 'package:boost_seller/model/items_constants.dart';
 
 class DataModel {
   String itemName;

@@ -1,9 +1,9 @@
-import 'package:e_commerce/controller/items_controller.dart';
-import 'package:e_commerce/utilities/project_Texts.dart';
-import 'package:e_commerce/utilities/project_paddings.dart';
-import 'package:e_commerce/widgets/item_views_widgets.dart';
+import 'package:boost_seller/controller/items_controller.dart';
+import 'package:boost_seller/utilities/project_Texts.dart';
+import 'package:boost_seller/utilities/project_paddings.dart';
+import 'package:boost_seller/widgets/item_views_widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:e_commerce/model/items_constants.dart';
+import 'package:boost_seller/model/items_constants.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/get_instance.dart';
 

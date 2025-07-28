@@ -1,7 +1,7 @@
-import 'package:e_commerce/model/data_model.dart';
+import 'package:boost_seller/model/data_model.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:get/state_manager.dart';
-import 'package:e_commerce/model/datas.dart';
+import 'package:boost_seller/model/datas.dart';
 
 class ItemsController extends GetxController {
   final items = <DataModel>[].obs;

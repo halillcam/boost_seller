@@ -1,5 +1,5 @@
-import 'package:e_commerce/model/data_model.dart';
-import 'package:e_commerce/model/items_constants.dart';
+import 'package:boost_seller/model/data_model.dart';
+import 'package:boost_seller/model/items_constants.dart';
 
 class Datas {
   static List<DataModel> getItems() {

@@ -1,10 +1,10 @@
-import 'package:e_commerce/controller/items_controller.dart';
-import 'package:e_commerce/utilities/project_Texts.dart';
-import 'package:e_commerce/utilities/project_paddings.dart';
-import 'package:e_commerce/utilities/project_textstyles.dart';
-import 'package:e_commerce/widgets/detail_page_views.dart';
+import 'package:boost_seller/controller/items_controller.dart';
+import 'package:boost_seller/utilities/project_Texts.dart';
+import 'package:boost_seller/utilities/project_paddings.dart';
+import 'package:boost_seller/utilities/project_textstyles.dart';
+import 'package:boost_seller/widgets/detail_page_views.dart';
 import 'package:flutter/material.dart';
-import 'package:e_commerce/model/data_model.dart';
+import 'package:boost_seller/model/data_model.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/get_instance.dart';
 
