@@ -21,10 +21,10 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 14500,
-          ItemSuppliers.Selena: 14600,
-          ItemSuppliers.babey: 13250,
-          ItemSuppliers.dropper: 14800,
+          ItemSuppliers.aliFather: 13800,
+          ItemSuppliers.Selena: 13850,
+          ItemSuppliers.babey: 13860,
+          ItemSuppliers.dropper: 13860,
         },
       ),
     );
@@ -46,7 +46,7 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 250,
+          ItemSuppliers.aliFather: 215,
           ItemSuppliers.Selena: 175,
           ItemSuppliers.babey: 165,
           ItemSuppliers.dropper: 150,
@@ -71,10 +71,10 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 10250,
-          ItemSuppliers.Selena: 10150,
-          ItemSuppliers.babey: 11000,
-          ItemSuppliers.dropper: 10175,
+          ItemSuppliers.aliFather: 9000,
+          ItemSuppliers.Selena: 8999,
+          ItemSuppliers.babey: 8990,
+          ItemSuppliers.dropper: 8999,
         },
       ),
     );
@@ -96,9 +96,9 @@ class Datas {
         ],
         suppliersPrices: {
           ItemSuppliers.aliFather: 75,
-          ItemSuppliers.Selena: 150,
-          ItemSuppliers.babey: 250,
-          ItemSuppliers.dropper: 270,
+          ItemSuppliers.Selena: 75,
+          ItemSuppliers.babey: 85,
+          ItemSuppliers.dropper: 65,
         },
       ),
     );
@@ -120,10 +120,10 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 4250,
-          ItemSuppliers.Selena: 4275,
-          ItemSuppliers.babey: 4800,
-          ItemSuppliers.dropper: 4650,
+          ItemSuppliers.aliFather: 9000,
+          ItemSuppliers.Selena: 8999,
+          ItemSuppliers.babey: 8965,
+          ItemSuppliers.dropper: 8985,
         },
       ),
     );
@@ -144,10 +144,10 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 14500,
-          ItemSuppliers.Selena: 14600,
-          ItemSuppliers.babey: 13250,
-          ItemSuppliers.dropper: 14800,
+          ItemSuppliers.aliFather: 8650,
+          ItemSuppliers.Selena: 8750,
+          ItemSuppliers.babey: 8800,
+          ItemSuppliers.dropper: 8900,
         },
       ),
     );
@@ -168,10 +168,10 @@ class Datas {
           ItemSuppliers.dropper.name,
         ],
         suppliersPrices: {
-          ItemSuppliers.aliFather: 3500,
-          ItemSuppliers.Selena: 3250,
-          ItemSuppliers.babey: 3100,
-          ItemSuppliers.dropper: 3150,
+          ItemSuppliers.aliFather: 4450,
+          ItemSuppliers.Selena: 4500,
+          ItemSuppliers.babey: 4800,
+          ItemSuppliers.dropper: 4800,
         },
       ),
     );

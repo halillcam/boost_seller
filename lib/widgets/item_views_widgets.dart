@@ -1,5 +1,7 @@
 import 'package:e_commerce/controller/items_controller.dart';
 import 'package:e_commerce/model/data_model.dart';
+import 'package:e_commerce/utilities/project_paddings.dart';
+import 'package:e_commerce/utilities/project_textstyles.dart';
 import 'package:e_commerce/views/items_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -18,17 +20,14 @@ class CustomItemView extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-          child: Text(
-            title,
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.amber),
-          ),
+          padding: ProjectPaddings.mainPadding,
+          child: Text(title, style: ProjectTextstyles.titleTextStyle),
         ),
         Container(
           height: 250,
           child: ListView.separated(
             scrollDirection: Axis.horizontal,
-            padding: EdgeInsets.symmetric(horizontal: 16),
+            padding: ProjectPaddings.containerPadding,
             itemCount: items.length,
             separatorBuilder: (context, index) => SizedBox(width: 12),
             itemBuilder: (context, index) {
@@ -41,7 +40,7 @@ class CustomItemView extends StatelessWidget {
                   elevation: 4,
                   child: Container(
                     width: 160,
-                    padding: EdgeInsets.all(8),
+                    padding: ProjectPaddings.cardPadding,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -49,10 +48,10 @@ class CustomItemView extends StatelessWidget {
                         SizedBox(height: 8),
                         Text(
                           item.itemName,
-                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13),
+                          style: ProjectTextstyles.itemNameTextStyle,
                           textAlign: TextAlign.center,
                         ),
-                        Text("${item.itemPrice} ₺", style: TextStyle(color: Colors.grey[600])),
+                        Text("${item.itemPrice} ₺", style: ProjectTextstyles.itemPriceTextStyle),
                       ],
                     ),
                   ),

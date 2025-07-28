@@ -11,13 +11,13 @@ class ItemsTexts {
 
 class ItemPrices {
   static const int gucci_price = 15250;
-  static const int iphone_price = 10200;
+  static const int iphone_price = 9999;
   static const int sweet_price = 150;
   static const int kazak_price = 100;
-  static const int macbook_price = 4500;
+  static const int macbook_price = 9999;
   static const int ceket_price = 250;
-  static const int rolex_price = 15500;
-  static const int samsung_price = 3500;
+  static const int rolex_price = 9999;
+  static const int samsung_price = 5600;
 }
 
 class ImageUrls {
