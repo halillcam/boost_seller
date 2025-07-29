@@ -9,7 +9,7 @@ class Datas {
         itemName: ItemsTexts.gucci_canta,
         itemCategory: ItemCategories.Fashion.name,
         itemPrice: ItemPrices.gucci_price,
-        itemImage: ImageUrls.gucciCanta,
+        itemImage: ImagePaths.gucci_canta.Path(),
         itemSourceSite: [
           itemSourceSite.Babazon.name,
           itemSourceSite.Tabu.name,
@@ -34,7 +34,7 @@ class Datas {
         itemName: ItemsTexts.galatasaray_ceket,
         itemCategory: ItemCategories.Fashion.name,
         itemPrice: ItemPrices.ceket_price,
-        itemImage: ImageUrls.gsCeket,
+        itemImage: ImagePaths.gs_ceket.Path(),
         itemSourceSite: [
           itemSourceSite.Babazon.name,
           itemSourceSite.Tabu.name,
@@ -58,7 +58,7 @@ class Datas {
         itemName: ItemsTexts.iphone_telefon,
         itemCategory: ItemCategories.Electronics.name,
         itemPrice: ItemPrices.iphone_price,
-        itemImage: ImageUrls.iphoneTelefon,
+        itemImage: ImagePaths.iphone_15.Path(),
         itemSourceSite: [
           itemSourceSite.Babazon.name,
           itemSourceSite.Tabu.name,
@@ -83,7 +83,7 @@ class Datas {
         itemName: ItemsTexts.kazak,
         itemCategory: ItemCategories.Fashion.name,
         itemPrice: ItemPrices.kazak_price,
-        itemImage: ImageUrls.kazak,
+        itemImage: ImagePaths.kazak.Path(),
         itemSourceSite: [
           itemSourceSite.Babazon.name,
           itemSourceSite.Tabu.name,
@@ -107,7 +107,7 @@ class Datas {
         itemName: ItemsTexts.macbook_pro,
         itemCategory: ItemCategories.Electronics.name,
         itemPrice: ItemPrices.macbook_price,
-        itemImage: ImageUrls.mackbookPro,
+        itemImage: ImagePaths.macbook_pro.Path(),
         itemSourceSite: [
           itemSourceSite.Babazon.name,
           itemSourceSite.Tabu.name,
@@ -132,7 +132,7 @@ class Datas {
         itemName: ItemsTexts.rolex_saat,
         itemCategory: ItemCategories.Electronics.name,
         itemPrice: ItemPrices.rolex_price,
-        itemImage: ImageUrls.rolexSsaat,
+        itemImage: ImagePaths.rolex_saat.Path(),
         itemSourceSite: [
           itemSourceSite.xBay.name,
           itemSourceSite.Tabu.name,
@@ -156,7 +156,7 @@ class Datas {
         itemName: ItemsTexts.samsung_telefon,
         itemCategory: ItemCategories.Electronics.name,
         itemPrice: ItemPrices.samsung_price,
-        itemImage: ImageUrls.samsungTelefon,
+        itemImage: ImagePaths.samsung_telefon.Path(),
         itemSourceSite: [
           itemSourceSite.Babazon.name,
           itemSourceSite.Tabu.name,

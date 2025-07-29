@@ -20,15 +20,34 @@ class ItemPrices {
   static const int samsung_price = 5600;
 }
 
-class ImageUrls {
+// Enum ve extensions ile daha gelişmiş ve temizini yaptım
+
+/*class ImageUrls {
   static const gucciCanta = "assets/images/gucci_canta.png";
   static const iphoneTelefon = "assets/images/iphone_15.png";
   static const sweetShirt = "assets/images/kapsun.png";
   static const kazak = "assets/images/kazak.png";
   static const mackbookPro = "assets/images/macbook_pro.png";
-  static const gsCeket = "assets/images/pngegg.png";
+  static const gsCeket = "assets/images/gs_ceket.png";
   static const rolexSsaat = "assets/images/rolex_saat.png";
   static const samsungTelefon = "assets/images/samsung_telefon.png";
+}*/
+
+enum ImagePaths {
+  gucci_canta,
+  iphone_15,
+  kapsun,
+  kazak,
+  macbook_pro,
+  gs_ceket,
+  rolex_saat,
+  samsung_telefon,
+}
+
+extension ImagePathsExtension on ImagePaths {
+  String Path() {
+    return "assets/images/$name.png";
+  }
 }
 
 enum ItemCategories { Electronics, Fashion, Toys, Books }
