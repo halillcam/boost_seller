@@ -25,19 +25,19 @@ class ItemsView extends StatelessWidget {
         children: [
           CustomItemView(
             title: itemSourceSite.Babazon.name,
-            items: controller.getItemsBySource(itemSourceSite.Babazon.name),
+            items: controller.getItemsBySources(itemSourceSite.Babazon.name),
           ),
           CustomItemView(
             title: itemSourceSite.Trendway.name,
-            items: controller.getItemsBySource(itemSourceSite.Trendway.name),
+            items: controller.getItemsBySources(itemSourceSite.Trendway.name),
           ),
           CustomItemView(
             title: itemSourceSite.xBay.name,
-            items: controller.getItemsBySource(itemSourceSite.xBay.name),
+            items: controller.getItemsBySources(itemSourceSite.xBay.name),
           ),
           CustomItemView(
             title: itemSourceSite.Tabu.name,
-            items: controller.getItemsBySource(itemSourceSite.Tabu.name),
+            items: controller.getItemsBySources(itemSourceSite.Tabu.name),
           ),
         ],
       ),

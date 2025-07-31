@@ -6,10 +6,10 @@ class ProjectTextstyles {
   static TextStyle titleTextStyle = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.bold,
-    color: Colors.amber,
+    color: Colors.blue,
   );
   static TextStyle itemNameTextStyle = TextStyle(fontWeight: FontWeight.bold, fontSize: 13);
-  static TextStyle itemPriceTextStyle = TextStyle(color: Colors.grey[600]);
+  static TextStyle itemPriceTextStyle = TextStyle(color: Colors.green, fontSize: 13);
   static TextStyle appbarTextStyle = TextStyle(fontSize: 20, fontWeight: FontWeight.bold);
 
   // itemDetails page

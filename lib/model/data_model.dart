@@ -5,8 +5,8 @@ class DataModel {
   int itemPrice;
   String itemCategory;
   String itemImage;
-  double? itemPoint;
-  int itemSeller;
+  double itemRating;
+  int itemSoldCount;
   Map<ItemSuppliers, int> suppliersPrices;
   List<String> itemSourceSite;
   List<String> suppliers;
@@ -17,8 +17,8 @@ class DataModel {
     required this.itemPrice,
     required this.itemImage,
     required this.itemSourceSite,
-    this.itemPoint,
-    this.itemSeller = 0,
+    required this.itemRating,
+    required this.itemSoldCount,
     required this.suppliers,
     required this.suppliersPrices,
   });

@@ -31,7 +31,7 @@ class CustomItemView extends StatelessWidget {
             itemCount: items.length,
             separatorBuilder: (context, index) => SizedBox(width: 12),
             itemBuilder: (context, index) {
-              final item = controller.items[index];
+              final item = items[index];
               return GestureDetector(
                 onTap: () {
                   Get.to(() => ItemDetailPage(item: item));
@@ -48,10 +48,33 @@ class CustomItemView extends StatelessWidget {
                         SizedBox(height: 8),
                         Text(
                           item.itemName,
-                          style: ProjectTextstyles.itemNameTextStyle,
-                          textAlign: TextAlign.center,
+                          style: TextStyle(fontSize: 13, color: Colors.cyanAccent),
                         ),
-                        Text("${item.itemPrice} ₺", style: ProjectTextstyles.itemPriceTextStyle),
+                        SizedBox(height: 8),
+
+                        ListTile(
+                          leading: Text(
+                            "${item.itemPrice} ₺",
+                            style: ProjectTextstyles.itemPriceTextStyle,
+                          ),
+                          title: Divider(),
+                          trailing: Text(
+                            "${item.itemSoldCount} sold out",
+                            style: TextStyle(
+                              color: Colors.amber,
+                              fontSize: 12,
+                              fontStyle: FontStyle.italic,
+                            ),
+                          ),
+                          contentPadding: EdgeInsets.only(left: 5, right: 5),
+                        ),
+                        Row(
+                          children: [
+                            Icon(Icons.star, color: Colors.amber, size: 16),
+                            SizedBox(width: 4),
+                            Text("${item.itemRating}", style: TextStyle(fontSize: 13)),
+                          ],
+                        ),
                       ],
                     ),
                   ),
