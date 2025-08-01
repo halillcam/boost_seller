@@ -22,4 +22,3 @@ This application, which I developed with mock data during my Flutter learning pr
 📡 Transform this project into an application that works with real data by accessing APIs from platforms such as Amazon, Trendyol, and Temu
 🤝 Offer the resulting infrastructure as an integrable solution to companies in need
 
-Translated with DeepL.com (free version)
