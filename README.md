@@ -10,7 +10,7 @@ This application, which I developed with mock data during my Flutter learning pr
 📊 Unique pricing and performance data have been defined for each store.  
 🧹 The app’s code structure has been reworked and aligned with clean code principles.  
 
-## 🧠 Key Features:
+## 🧠 Key Features: 
 ✅ Products are listed by category and stores where they are sold (e.g., Babazon, Trendway, xBay...)
 ✅ Multiple suppliers and supply prices can be defined for each product
 ✅ Net profit/loss analysis is performed by comparing the sales price with the supply price
