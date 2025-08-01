@@ -13,7 +13,7 @@ class TrendwayData extends IDataSource {
         itemPrice: 250,
         itemImage: ImagePaths.gs_ceket.Path(),
         itemRating: 5,
-        itemSoldCount: 10000,
+        itemSoldCount: 21905,
         itemSourceSite: ["Trendway"],
         suppliers: [
           ItemSuppliers.aliFather.name,

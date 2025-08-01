@@ -11,7 +11,7 @@ import 'package:get/get_instance/get_instance.dart';
 class ItemDetailPage extends StatelessWidget {
   final DataModel item;
 
-  ItemDetailPage({Key? key, required this.item}) : super(key: key);
+  ItemDetailPage({super.key, required this.item});
   final ItemsController controller = Get.find();
   @override
   Widget build(BuildContext context) {

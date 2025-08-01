@@ -7,6 +7,7 @@ import 'package:boost_seller/model/items_constants.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/get_instance.dart';
 
+// ignore: must_be_immutable
 class ItemsView extends StatelessWidget {
   ItemsView({super.key});
 

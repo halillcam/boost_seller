@@ -3,18 +3,11 @@ import 'package:boost_seller/Datas/tabu_datas.dart';
 import 'package:boost_seller/Datas/trendway_datas.dart';
 import 'package:boost_seller/Datas/xbay_datas.dart';
 import 'package:boost_seller/model/data_model.dart';
-import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:get/state_manager.dart';
 
 class ItemsController extends GetxController {
   final items = <DataModel>[].obs;
 
-  @override
-  /* void onInit() {
-    // TODO: implement onInit
-    super.onInit();
-    items.addAll(Datas.getItems());
-  }*/
   // price Calculate
   double calculateProfit({
     required int marketPrice,
@@ -31,8 +24,6 @@ class ItemsController extends GetxController {
   /* List<DataModel> getItemsBySource(String source) {
     return Datas.getItems().where((item) => item.itemSourceSite.contains(source)).toList();
   }*/
-
-  // test tarafı
 
   final babazonData = BabazonData();
   final trendwayData = TrendwayData();
